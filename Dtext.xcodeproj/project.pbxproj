@@ -18,6 +18,7 @@
 		840052292133FEB100C6D221 /* dtext.m in Sources */ = {isa = PBXBuildFile; fileRef = 840052282133FEB100C6D221 /* dtext.m */; };
 		8400522A2133FEB100C6D221 /* dtext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 840052272133FEB100C6D221 /* dtext.h */; };
 		8400522E2133FEBC00C6D221 /* UIKit+NotNull.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 215FA70A1EB871300021308F /* UIKit+NotNull.h */; };
+		840052312134E7D300C6D221 /* dtext.m in Sources */ = {isa = PBXBuildFile; fileRef = 840052302134E7D200C6D221 /* dtext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		840052252133FEB100C6D221 /* libdtext.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdtext.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		840052272133FEB100C6D221 /* dtext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dtext.h; sourceTree = "<group>"; };
 		840052282133FEB100C6D221 /* dtext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dtext.m; sourceTree = "<group>"; };
+		8400522F2134E7D200C6D221 /* dtext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtext.h; sourceTree = "<group>"; };
+		840052302134E7D200C6D221 /* dtext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dtext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 		215FA7001EB871300021308F /* Dtext */ = {
 			isa = PBXGroup;
 			children = (
+				8400522F2134E7D200C6D221 /* dtext.h */,
+				840052302134E7D200C6D221 /* dtext.m */,
 				215FA70A1EB871300021308F /* UIKit+NotNull.h */,
 				215FA70B1EB871300021308F /* UIKit+NotNull.m */,
 				215FA70C1EB871300021308F /* ViewController.h */,
@@ -316,6 +321,7 @@
 			files = (
 				215FA7141EB871300021308F /* UIKit+NotNull.m in Sources */,
 				215FA7151EB871300021308F /* ViewController.m in Sources */,
+				840052312134E7D300C6D221 /* dtext.m in Sources */,
 				215FA7131EB871300021308F /* main.m in Sources */,
 				215FA70E1EB871300021308F /* AppDelegate.m in Sources */,
 			);
