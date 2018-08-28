@@ -19,6 +19,9 @@
 		8400522A2133FEB100C6D221 /* dtext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 840052272133FEB100C6D221 /* dtext.h */; };
 		8400522E2133FEBC00C6D221 /* UIKit+NotNull.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 215FA70A1EB871300021308F /* UIKit+NotNull.h */; };
 		840052312134E7D300C6D221 /* dtext.m in Sources */ = {isa = PBXBuildFile; fileRef = 840052302134E7D200C6D221 /* dtext.m */; };
+		840052342134E93A00C6D221 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840052332134E93A00C6D221 /* UIKit.framework */; };
+		840052372134EBE900C6D221 /* UIKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 840052332134E93A00C6D221 /* UIKit.framework */; };
+		840052382134EBF500C6D221 /* UIKit.framework in Headers */ = {isa = PBXBuildFile; fileRef = 840052332134E93A00C6D221 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,7 @@
 		840052282133FEB100C6D221 /* dtext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dtext.m; sourceTree = "<group>"; };
 		8400522F2134E7D200C6D221 /* dtext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtext.h; sourceTree = "<group>"; };
 		840052302134E7D200C6D221 /* dtext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dtext.m; sourceTree = "<group>"; };
+		840052332134E93A00C6D221 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840052342134E93A00C6D221 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +145,7 @@
 				215FA7001EB871300021308F /* Dtext */,
 				840052262133FEB100C6D221 /* dtext */,
 				5AB515C51EA8DC2100570C3F /* Products */,
+				840052322134E93900C6D221 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,7 +169,26 @@
 			path = dtext;
 			sourceTree = "<group>";
 		};
+		840052322134E93900C6D221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				840052332134E93A00C6D221 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		840052352134EBD700C6D221 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840052382134EBF500C6D221 /* UIKit.framework in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5AB515C31EA8DC2100570C3F /* Dtext */ = {
@@ -226,6 +251,8 @@
 				840052212133FEB100C6D221 /* Sources */,
 				840052222133FEB100C6D221 /* Frameworks */,
 				840052232133FEB100C6D221 /* CopyFiles */,
+				840052352134EBD700C6D221 /* Headers */,
+				840052362134EBDD00C6D221 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -309,6 +336,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840052362134EBDD00C6D221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840052372134EBE900C6D221 /* UIKit.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
