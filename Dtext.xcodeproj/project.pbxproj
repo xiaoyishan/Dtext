@@ -16,8 +16,8 @@
 		215FA7141EB871300021308F /* UIKit+NotNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 215FA70B1EB871300021308F /* UIKit+NotNull.m */; };
 		215FA7151EB871300021308F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 215FA70D1EB871300021308F /* ViewController.m */; };
 		840052292133FEB100C6D221 /* dtext.m in Sources */ = {isa = PBXBuildFile; fileRef = 840052282133FEB100C6D221 /* dtext.m */; };
-		8400522A2133FEB100C6D221 /* dtext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 840052272133FEB100C6D221 /* dtext.h */; };
-		8400522E2133FEBC00C6D221 /* UIKit+NotNull.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 215FA70A1EB871300021308F /* UIKit+NotNull.h */; };
+		8400522A2133FEB100C6D221 /* dtext.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 840052272133FEB100C6D221 /* dtext.h */; };
+		8400522E2133FEBC00C6D221 /* UIKit+NotNull.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 215FA70A1EB871300021308F /* UIKit+NotNull.h */; };
 		840052312134E7D300C6D221 /* dtext.m in Sources */ = {isa = PBXBuildFile; fileRef = 840052302134E7D200C6D221 /* dtext.m */; };
 		840052342134E93A00C6D221 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840052332134E93A00C6D221 /* UIKit.framework */; };
 		840052372134EBE900C6D221 /* UIKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 840052332134E93A00C6D221 /* UIKit.framework */; };
@@ -42,15 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		840052232133FEB100C6D221 /* CopyFiles */ = {
+		840052232133FEB100C6D221 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				8400522A2133FEB100C6D221 /* dtext.h in CopyFiles */,
-				8400522E2133FEBC00C6D221 /* UIKit+NotNull.h in CopyFiles */,
+				8400522A2133FEB100C6D221 /* dtext.h in Copy Files */,
+				8400522E2133FEBC00C6D221 /* UIKit+NotNull.h in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -250,7 +251,7 @@
 			buildPhases = (
 				840052212133FEB100C6D221 /* Sources */,
 				840052222133FEB100C6D221 /* Frameworks */,
-				840052232133FEB100C6D221 /* CopyFiles */,
+				840052232133FEB100C6D221 /* Copy Files */,
 				840052352134EBD700C6D221 /* Headers */,
 				840052362134EBDD00C6D221 /* Resources */,
 			);
